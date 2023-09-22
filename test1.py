@@ -11,7 +11,7 @@ from keras.utils import to_categorical
 
 DATA_PATH = os.path.join('MP_Data')
 
-actions = np.array(['Forward','Backward','Present', 'Quit'])
+actions = np.array(['A','B','C'])
 
 #30 video chứa data
 no_sequences = 30
